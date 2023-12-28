@@ -1,0 +1,39 @@
+.contaner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contaner .wraper{
+    width:400px;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 30px;
+}
+.contaner .wraper .roomNameInput{
+    width: 90%;
+    height: 50px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    padding: 0px 10px;
+    }
+
+    .contaner .wraper .JoinRoomBtn{
+        width: 30%;
+        height: 40px;
+        font-size: larger;
+        background-color: rgb(107, 130, 130);
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+    }
